@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header{
@@ -9,7 +10,8 @@ body{
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 12vw;
 }
 
 .logo{
@@ -29,4 +31,45 @@ a {
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
+}
+
+.hero-section{
+    background-color:#1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 100px 12vw;
+}
+
+.left-content{
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.hero{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.sidekick{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+#hero-image{
+    height: 300px;
+    flex-shrink: 1;
+}
+
+button{
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 600;
 }
