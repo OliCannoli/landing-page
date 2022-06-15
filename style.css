@@ -99,9 +99,10 @@ button{
 }
 
 .info-image{
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
     border-radius: 16px;
+    min-width: 0;
+    min-height: 0;
 }
 
 .image-card{
@@ -110,4 +111,26 @@ button{
     max-width: 200px;
     text-align: center;
     align-items: center;
+    gap: 8px;
+    flex: 0 1 auto;
+}
+
+.testimonial{
+    background-color: #e5e7eb;
+    padding: 80px 28vw;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+.byline{
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
 }
