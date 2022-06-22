@@ -83,7 +83,7 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 32px;
+    padding: 32px 16vw;
     gap: 32px;
 }
 .info-header{
@@ -96,6 +96,7 @@ button{
     display: flex;
     gap: 64px;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .info-image{
@@ -117,7 +118,7 @@ button{
 
 .testimonial{
     background-color: #e5e7eb;
-    padding: 80px 28vw;
+    padding: 80px 20vw;
     color: #1f2937;
     display: flex;
     flex-direction: column;
