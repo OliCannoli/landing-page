@@ -79,6 +79,7 @@ button{
     color: #e5e7eb;
     font-size: 18px;
     font-weight: 600;
+    flex-shrink: 0;
 }
 
 .image-row{
